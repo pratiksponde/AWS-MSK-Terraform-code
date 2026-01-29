@@ -29,3 +29,8 @@ module "MSK-Serverless" {
       Environment = var.Environment
     }
 }
+module "EC2-Client-and-IAM-Role" {
+  source = "../../Modules/EC2-Client-and-IAM-Role"
+  vpc_id = module.VPC.vpc_id
+  subnet_ids = module.VPC.public_subnet_ids
+}
