@@ -1,4 +1,4 @@
-# 🚀 Deploying Amazon MSK Serverless Across Multiple Environments with Terraform
+# 🚀 AWS MSK Using Terraform: Multi-Environment Deployment Guide
 
 This repository contains Terraform infrastructure code to deploy **Amazon MSK Serverless** across multiple environments such as **Dev** and **UAT** using a modular and scalable architecture.
 
